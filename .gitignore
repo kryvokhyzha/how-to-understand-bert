@@ -127,3 +127,19 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# other
+.DS_Store
+.idea/
+logdir/checkpoints
+data/sdg_classification/*.csv
+data/sdg_classification/*.zip
+!data/sdg_classification/*_toy.csv
+notebooks
+*.pkl
