@@ -1,5 +1,5 @@
 # how-to-understand-bert 🤗
-In this repository, I have collected different knowledge of BERT and code examples
+In this repository, I have collected different sources, visualizations and code examples of BERT
 
 ## Sources 📚
 * [en] [BERT classifier fine-tuning with PyTorch, HuggingFace, and Catalyst](https://github.com/Yorko/bert-finetuning-catalyst)
