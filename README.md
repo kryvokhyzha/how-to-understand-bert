@@ -10,6 +10,8 @@ In this repository, I have collected different sources, visualizations and code 
 
 * [en] The Illustrated BERT [blog post](http://jalammar.github.io/illustrated-bert/)
 
+* [en] Tokenizers: [How machines read](https://blog.floydhub.com/tokenization-nlp/)
+
 * [en] DistillBERT overview (distillation will be covered later in our course) [blog post](https://medium.com/huggingface/distilbert-8cf3380435b5)
 
 * [en] Google AI Blog [post about open sourcing BERT](https://ai.googleblog.com/2018/11/open-sourcing-bert-state-of-art-pre.html)
