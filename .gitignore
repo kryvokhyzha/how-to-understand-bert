@@ -141,5 +141,7 @@ logdir/checkpoints
 data/sdg_classification/*.csv
 data/sdg_classification/*.zip
 !data/sdg_classification/*_toy.csv
-notebooks
 *.pkl
+
+# vscode
+.vscode
