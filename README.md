@@ -6,18 +6,30 @@ So, I have started my long way in BERT with [blog posts](https://mccormickml.com
 
 1. Attention
    + [en] [Visualizing A Neural Machine Translation Model](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/) (Mechanics of Seq2seq Models With Attention) ❤️
+
    + [en] [Attention is all you need](https://arxiv.org/abs/1706.03762) - original paper
+
    + [en] [Attention is all you need](https://www.youtube.com/watch?v=iDulhoQ2pro) - short video about this paper
+
    + [en] [Attention is all you need](https://www.youtube.com/watch?v=nPuWGx_wF3I&list=WL&index=74) - shorter but better video ❤️
+
    + [ru] [Attention, attention!](https://www.youtube.com/watch?v=q9svwVYduSo&list=WL&index=98&t=4s) - seminar organized by JetBrains Research
+
 2. Transformer
    + [en] [Awesome illustrations](http://jalammar.github.io/illustrated-transformer/) was created by Jay Alammar ❤️
+
    + [en] [The Narrated Transformer Language Model](https://www.youtube.com/watch?v=-QH8fRhqFHM) - explanation by Jay Alammar ❤️
+
    + [en] [Transformer (Attention is all you need)](https://www.youtube.com/watch?v=z1xs9jdZnuY) - short video with great visualizations
+
    + [en] [Great Jupyter Notebook](https://github.com/mertensu/transformer-tutorial) with Transformer visualization ❤️
+
    + [en] [Pytorch Transformers from Scratch](https://www.youtube.com/watch?v=U0s0f995w14&list=WL&index=40)
+
    + [en] Harvard NLP [full implementation in PyTorch](http://nlp.seas.harvard.edu/2018/04/03/attention.html) ❤️
+
    + [ru] [Self-Attention. Transformer overview](https://www.youtube.com/❤️watch?v=UETKUIlYE6g) ❤️
+   
    + [en] Just a short recap [video](https://www.youtube.com/watch?v=S27pHKBEp30&list=WL&index=95&t=41s)
 
 ## Examples 💪
