@@ -22,19 +22,21 @@ So, I have started my long way in BERT with [blog posts](https://mccormickml.com
 
    + [en] [Transformer (Attention is all you need)](https://www.youtube.com/watch?v=z1xs9jdZnuY) - short video with great visualizations
 
-   + [en] [Great Jupyter Notebook](https://github.com/mertensu/transformer-tutorial) with Transformer visualization ❤️
-
-   + [en] [Pytorch Transformers from Scratch](https://www.youtube.com/watch?v=U0s0f995w14&list=WL&index=40)
-
-   + [en] Harvard NLP [full implementation in PyTorch](http://nlp.seas.harvard.edu/2018/04/03/attention.html) ❤️
-
    + [ru] [Self-Attention. Transformer overview](https://www.youtube.com/❤️watch?v=UETKUIlYE6g) ❤️
-   
+
    + [en] Just a short recap [video](https://www.youtube.com/watch?v=S27pHKBEp30&list=WL&index=95&t=41s)
+
+   + also, in **_Transformer_** folder you can find different implementations of this architecture ❤️‍🔥❤️‍🔥❤️‍🔥
+
+****
+Next, let's talk about tokenization in context of BERT.
+   + [en] [WordPiece Embeddings](https://www.youtube.com/watch?v=zJW57aCBCTk&list=PLam9sigHPGwOBuH4_4fr-XvDbe5uneaf6&index=2) - II part of BERT Research by Chris McCormick ❤️
+   + [en] Tokenizers: [How machines read](https://blog.floydhub.com/tokenization-nlp/) ❤️
+****
 
 ## Examples 💪
 
-## Sources 📚
+## Additional sources 📚
 * [en] [BERT classifier fine-tuning with PyTorch, HuggingFace, and Catalyst](https://github.com/Yorko/bert-finetuning-catalyst)
 
 * [en] [Transformer encoder - visualized](https://github.com/mertensu/transformer-tutorial)
