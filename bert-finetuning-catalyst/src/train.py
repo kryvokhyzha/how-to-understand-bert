@@ -54,7 +54,9 @@ runner.train(
     loaders=train_val_loaders,
     callbacks=[
         AccuracyCallback(num_classes=int(params["model"]["num_classes"])),
-        OptimizerCallback(accumulation_steps=int(params["training"]["accum_steps"])),
+        OptimizerCallback(
+            accumulation_steps=int(params["training"]["accum_steps"])
+        ),
     ],
     logdir=params["training"]["log_dir"],
     num_epochs=int(params["training"]["num_epochs"]),
@@ -77,4 +79,6 @@ runner.infer(
 
 # lastly, saving predicted scores for the test set
 predicted_scores = runner.callbacks[0].predictions["logits"]
-np.savetxt(X=predicted_scores, fname=params["data"]["path_to_test_pred_scores"])
+np.savetxt(
+    X=predicted_scores, fname=params["data"]["path_to_test_pred_scores"]
+)
