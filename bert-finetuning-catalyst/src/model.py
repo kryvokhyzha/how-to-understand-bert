@@ -9,7 +9,10 @@ class BertForSequenceClassification(nn.Module):
     """
 
     def __init__(
-        self, pretrained_model_name: str, num_classes: int = None, dropout: float = 0.3
+        self,
+        pretrained_model_name: str, 
+        num_classes: int = None, 
+        dropout: float = 0.3
     ):
         """
         Args:
