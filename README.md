@@ -59,7 +59,9 @@ And finally, let's read more about BERT.
 
    + [en] [BERT classifier fine-tuning with PyTorch, HuggingFace, and Catalyst](https://github.com/Yorko/bert-finetuning-catalyst) - Yury Kashnitsky tutorial ❤️
 
-   + also, in __*sequence-classification*__ folder you can find different examples ❤️‍🔥
+   + in __*sequence-classification*__ folder you can find different examples ❤️‍🔥
+
+   + in __*bert-finetuning-catalyst*__ folder you can find great example based on Yury Kashnitsky tutorial ❤️‍🔥
 
 ****
 
