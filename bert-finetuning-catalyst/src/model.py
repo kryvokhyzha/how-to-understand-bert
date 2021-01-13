@@ -9,7 +9,10 @@ class BertForSequenceClassification(nn.Module):
     """
 
     def __init__(
-        self, pretrained_model_name: str, num_classes: int = None, dropout: float = 0.3
+        self,
+        pretrained_model_name: str,
+        num_classes: int = None,
+        dropout: float = 0.3,
     ):
         """
         Args:
@@ -24,7 +27,9 @@ class BertForSequenceClassification(nn.Module):
             pretrained_model_name, num_labels=num_classes
         )
 
-        self.model = AutoModel.from_pretrained(pretrained_model_name, config=config)
+        self.model = AutoModel.from_pretrained(
+            pretrained_model_name, config=config
+        )
         self.classifier = nn.Linear(config.hidden_size, num_classes)
         self.dropout = nn.Dropout(dropout)
 
@@ -48,7 +53,9 @@ class BertForSequenceClassification(nn.Module):
         # taking BERTModel output
         # see https://huggingface.co/transformers/model_doc/bert.html#transformers.BertModel
         bert_output = self.model(
-            input_ids=features, attention_mask=attention_mask, head_mask=head_mask
+            input_ids=features,
+            attention_mask=attention_mask,
+            head_mask=head_mask,
         )
         # we only need the hidden state here and don't need
         # transformer output, so index 0

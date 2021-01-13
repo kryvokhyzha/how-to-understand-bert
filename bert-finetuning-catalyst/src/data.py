@@ -45,11 +45,15 @@ class TextClassificationDataset(Dataset):
             # {'class1': 0, 'class2': 1, 'class3': 2, ...}
             # using this instead of `sklearn.preprocessing.LabelEncoder`
             # no easily handle unknown target values
-            self.label_dict = dict(zip(sorted(set(labels)), range(len(set(labels)))))
+            self.label_dict = dict(
+                zip(sorted(set(labels)), range(len(set(labels))))
+            )
 
         self.tokenizer = AutoTokenizer.from_pretrained(model_name)
         # suppresses tokenizer warnings
-        logging.getLogger("transformers.tokenization_utils").setLevel(logging.FATAL)
+        logging.getLogger("transformers.tokenization_utils").setLevel(
+            logging.FATAL
+        )
 
         # special tokens for transformers
         # in the simplest case a [CLS] token is added in the beginning
@@ -96,7 +100,9 @@ class TextClassificationDataset(Dataset):
         # encoding target
         if self.labels is not None:
             y = self.labels[index]
-            y_encoded = torch.Tensor([self.label_dict.get(y, -1)]).long().squeeze(0)
+            y_encoded = (
+                torch.Tensor([self.label_dict.get(y, -1)]).long().squeeze(0)
+            )
             output_dict["targets"] = y_encoded
 
         return output_dict
@@ -115,7 +121,8 @@ def read_data(params: dict) -> Tuple[dict, dict]:
         Path(params["data"]["path_to_data"]) / params["data"]["train_filename"]
     )
     valid_df = pd.read_csv(
-        Path(params["data"]["path_to_data"]) / params["data"]["validation_filename"]
+        Path(params["data"]["path_to_data"])
+        / params["data"]["validation_filename"]
     )
     test_df = pd.read_csv(
         Path(params["data"]["path_to_data"]) / params["data"]["test_filename"]
