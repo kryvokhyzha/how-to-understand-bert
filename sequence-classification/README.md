@@ -6,7 +6,7 @@ There you can find some notebooks with examples of usage BERT for sequence class
 
 + **sentiment-analysis-with-bert.ipynb** - this tutorial shows how to fine-tune BERT for sentiment analysis.[Original post](https://curiousily.com/posts/sentiment-analysis-with-bert-and-hugging-face-using-pytorch-and-python/).
 
-+ **sentiment-analysis-with-bert-pytorch-lightning.ipynb** - this tutorial shows how to fine-tune BERT for sentiment analysis using pytorch-lightning.[Original post](https://curiousily.com/posts/sentiment-analysis-with-bert-and-hugging-face-using-pytorch-and-python/).
++ **sentiment-analysis-with-bert-pytorch-lightning.ipynb** - this tutorial shows how to fine-tune DistilBERT for sentiment analysis using pytorch-lightning.
 
 ## Additional sources
    + [en] [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)
