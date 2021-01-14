@@ -61,6 +61,8 @@ And finally, let's read more about BERT.
 
    + in __*sequence-classification*__ folder you can find different examples ❤️‍🔥
 
+   + in __*document-classification*__ folder you can find different examples ❤️‍🔥
+
    + in __*bert-finetuning-catalyst*__ folder you can find great example based on Yury Kashnitsky tutorial ❤️‍🔥
 
 ****
