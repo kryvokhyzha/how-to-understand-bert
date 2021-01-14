@@ -1,5 +1,5 @@
 # how-to-understand-bert 🤗
-In this repository, I have collected different sources, visualizations and code examples of BERT. I had been doing this during learning this material. Perhaps, I should have called this repository like "how-I-understand-bert" 🤔
+In this repository, I have collected different sources, visualizations and code examples of BERT. I had been doing this during learning material of BERT. Perhaps, I should have called this repository like "how-I-understand-bert" 🤔
 
 ****
 
@@ -60,6 +60,8 @@ And finally, let's read more about BERT.
    + [en] [BERT classifier fine-tuning with PyTorch, HuggingFace, and Catalyst](https://github.com/Yorko/bert-finetuning-catalyst) - Yury Kashnitsky tutorial ❤️
 
    + in __*sequence-classification*__ folder you can find different examples ❤️‍🔥
+
+   + in __*document-classification*__ folder you can find different examples ❤️‍🔥
 
    + in __*bert-finetuning-catalyst*__ folder you can find great example based on Yury Kashnitsky tutorial ❤️‍🔥
 
