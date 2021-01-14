@@ -1,5 +1,5 @@
 # how-to-understand-bert 🤗
-In this repository, I have collected different sources, visualizations and code examples of BERT. I had been doing this during learning this material. Perhaps, I should have called this repository like "how-I-understand-bert" 🤔
+In this repository, I have collected different sources, visualizations and code examples of BERT. I had been doing this during learning material of BERT. Perhaps, I should have called this repository like "how-I-understand-bert" 🤔
 
 ****
 
