@@ -10,5 +10,9 @@ There you can find some notebooks with examples of usage BERT for sequence class
 
 + **sentiment-analysis-with-bert-pytorch-lightning.ipynb** - this tutorial shows how to fine-tune DistilBERT for sentiment analysis using pytorch-lightning.
 
++ **a-visual-notebook-to-using-bert-for-the-first-time.ipynb** - in this notebook, we will use pre-trained deep learning model to solve text sentiment analysis task. First part of this notebook belongs to Jay Alammar and his [great blog post](http://jalammar.github.io/a-visual-guide-to-using-bert-for-the-first-time/) (while it has minor changes). His blog is a great way to dive into the DL and NLP concepts.
+
++ [ru] **russian-tweet-sentiment-analysis-with-bert.ipynb** - a simple notebook with an example of text tokenization by hand
+
 ## Additional sources
    + [en] [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)
