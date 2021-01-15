@@ -68,6 +68,8 @@ And finally, let's read more about BERT.
 ****
 
 ## Additional sources 📚
+   + [en] Check [this repository](https://github.com/tomohideshibata/BERT-related-papers) if you wanna more papers
+
    + [en] [Transformer encoder - visualized](https://github.com/mertensu/transformer-tutorial)
 
    + [en] [Firing a cannon at sparrows: BERT vs. logreg](https://www.youtube.com/watch?v=JIU6WZuWl6k&list=WL&index=50)
